@@ -1,0 +1,27 @@
+{
+  "name": "capo.glo.gang",
+  "version": "1.0.0",
+  "description": "A lyric and song Discord bot for the Chicago rapper Capo.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirandluke/capo.glo.gang.git"
+  },
+  "author": "Luke Sirand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirandluke/capo.glo.gang/issues"
+  },
+  "homepage": "https://github.com/sirandluke/capo.glo.gang#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "genius-lyrics": "^4.2.9",
+    "google-auth-library": "^7.1.2",
+    "googleapis": "^78.0.0",
+    "simple-oauth2": "^4.2.0"
+  }
+}
