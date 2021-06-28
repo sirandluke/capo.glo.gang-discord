@@ -1,4 +1,4 @@
-# capo.glo.gang
+# capo.glo.gang (Discord)
 
 A lyric and song Discord bot for the Chicago rapper Capo.
 
