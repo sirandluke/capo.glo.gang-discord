@@ -14,4 +14,4 @@ A lyric and song Discord bot for the Chicago rapper Capo.
 
 ## Author
 
-capo.glo.gang is by Luke Sirand ([@srdbeatz](https://srdbeatz.github.io/))
+capo.glo.gang by [Luke Sirand](https://sirandluke.github.io/)
