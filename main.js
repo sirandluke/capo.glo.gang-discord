@@ -73,7 +73,7 @@ client.on('message', msg => {
       }
     }).catch((err) => {
       console.log(err);
-      msg.channel.send('Oh no!\nIt looks like Capo bot has exceeded the daily allotment of YouTube API calls:cry:\nIf you enjoy **capo.glo.gang**, consider donating to help pay hosting costs, api calls, and future projects at https://paypal.me/srdbeatz?locale.x=en_US\n Thanks! :heart_decoration:');
+      msg.channel.send('Oh no!\nIt looks like Capo bot has exceeded the daily allotment of YouTube API calls :cry:\nIf you enjoy **capo.glo.gang**, consider donating to help pay hosting costs, api calls, and future projects at https://paypal.me/srdbeatz?locale.x=en_US\n Thanks! :heart_decoration:');
     });
   } else {
     // Return valid list of commands.
