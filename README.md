@@ -6,7 +6,11 @@ A lyric and song Discord bot for the Chicago rapper Capo.
 
 - `-quote` => Returns a lyric from a Capo song.
 
+  <img src="images/quote-ex.png" width="75%"/>
+
 - `-song`  => Returns a YouTube link to a Capo related video.
+
+  <img src="images/song-ex.png" width="75%"/>
 
 ## Author
 
