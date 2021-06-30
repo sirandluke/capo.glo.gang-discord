@@ -77,7 +77,7 @@ client.on('message', msg => {
     });
   } else if ('help') {
     // Return valid list of commands.
-    msg.channel.send('Valid Commands:\n`-quote` => Returns a lyric from a Capo song.\n`-help`  => Returns this message.\n');
+    msg.channel.send('Valid Commands:\n`-quote` => Returns a lyric from a Capo song.\n -song => Returns a YouTube link to a Capo related video.\n `-help`  => Returns this message.\n');
   }
 });
 

@@ -16,6 +16,15 @@ A lyric and song Discord bot for the Chicago rapper Capo.
 
   <img src="images/song-ex.png" width="75%"/>
 
+- `-help`  => Returns a list of valid commands.
+
+  ```
+    Valid Commands:
+      -quote => Returns a lyric from a Capo song.
+      
+      -help  => Returns this message.
+  ```
+
 ## Author
 
 capo.glo.gang by [Luke Sirand](https://sirandluke.github.io/)
