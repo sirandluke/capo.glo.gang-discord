@@ -75,9 +75,9 @@ client.on('message', msg => {
       console.log(err);
       msg.channel.send('Oh no!\nIt looks like Capo bot has exceeded the daily allotment of YouTube API calls :cry:\nIf you enjoy **capo.glo.gang**, consider donating to help pay hosting costs, api calls, and future projects at https://paypal.me/srdbeatz?locale.x=en_US\n Thanks! :heart_decoration:');
     });
-  } else {
+  } else if ('help') {
     // Return valid list of commands.
-    msg.channel.send('Valid Commands:\n`-quote` => Returns a lyric from a Capo song.\n`-song`   => Returns a YouTube link to a Capo related video.');
+    msg.channel.send('Valid Commands:\n`-quote` => Returns a lyric from a Capo song.\n`-help`  => Returns this message.\n');
   }
 });
 
