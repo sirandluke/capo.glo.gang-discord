@@ -1,4 +1,4 @@
-<h1 align="center">capo.glo.gang (Discord)</h1>
+# capo.glo.gang
 
 A lyric and song Discord bot for the Chicago rapper Capo.
 
