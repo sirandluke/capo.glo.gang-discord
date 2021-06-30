@@ -18,7 +18,7 @@ A lyric and song Discord bot for the Chicago rapper Capo.
 
 - `-help`  => Returns a list of valid commands.
 
-  ```
+  ```console
     Valid Commands:
       -quote => Returns a lyric from a Capo song.
       -song => Returns a YouTube link to a Capo related video.
