@@ -2,9 +2,9 @@
   "name": "capo.glo.gang",
   "version": "1.0.0",
   "description": "A lyric and song Discord bot for the Chicago rapper Capo.",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,13 @@
   },
   "homepage": "https://github.com/sirandluke/capo.glo.gang#readme",
   "dependencies": {
+    "chai": "^4.3.4",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
     "genius-lyrics": "^4.2.9",
     "google-auth-library": "^7.1.2",
     "googleapis": "^78.0.0",
+    "mocha": "^9.0.2",
     "simple-oauth2": "^4.2.0"
   }
 }

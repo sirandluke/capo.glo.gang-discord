@@ -25,6 +25,6 @@ A lyric and song Discord bot for the Chicago rapper Capo.
       -help  => Returns this message.
   ```
 
-## Author
+## Contributing
 
-capo.glo.gang by [Luke Sirand](https://sirandluke.github.io/)
+Feel free to make any changes and submit a pull request!
