@@ -1,6 +1,6 @@
 {
   "name": "capo.glo.gang",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A lyric and song Discord bot for the Chicago rapper Capo.",
   "main": "src/main.js",
   "scripts": {
