@@ -4,7 +4,7 @@ A lyric and song Discord bot for the Chicago rapper Capo.
 
 ## Adding the Bot to Your Discord Server
 
-***Follow the link [here](https://discord.com/oauth2/authorize?client_id=858220810325065739&scope=bot)!***
+***Follow the link [here](https://top.gg/bot/858220810325065739)!***
 
 ## Commands
 
