@@ -8,7 +8,7 @@ function getSong(title) {
     google.youtube('v3').search.list({  // Returns YouTube link.
       key: process.env.YOUTUBE_TOKEN,
       part: 'snippet',
-      q: `${title} 'capo glo gang \-interview \-type \-beat \-killed \-kollege \-kidd`,  // Search for capo, no interviews, no type beats, no murder video (GIP).
+      q: `${title} \-interview \-type \-beat \-killed \-kollege \-kidd`,  // Search for capo, no interviews, no type beats, no murder video (GIP).
       maxResults: max_size,
       type: 'video',
       videoDuration: 'short',
