@@ -1,5 +1,11 @@
 require('dotenv').config();
 
+// General.
+const fs = require('fs');
+const path = require('path');
+const songs_path = path.join(__dirname, 'songs.json');
+const songs = JSON.parse(fs.readFileSync(songs_path).toString());
+
 // Discord Initializations.
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -16,19 +22,26 @@ client.once('ready', () => {
   console.log('cap.glo.gang is online');
 });
 
+function randSong() {
+  let count = songs.count;
+  let index = Math.floor(Math.random() * count);
+  return songs.discography[index];
+}
 
 client.on('message', async (msg) => {
   if (!msg.content.startsWith(prefix) || msg.author.bot) return;
   const args = msg.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
   if (command === 'quote') {  // Return lyric as quote.
-    await getLyric().then(lyric => {
+    let title = randSong()
+    await getLyric(title).then(lyric => {
       msg.channel.send(`> ***"${lyric.body}"***\n *${lyric.title}*`);
     }).catch(error => {
       console.log(error);
     });
   } else if (command === 'song') {
-    await getSong().then(url => {
+    let title = randSong()
+    await getSong(title).then(url => {
       msg.channel.send(url);
     }).catch(error => {
       console.log(error);

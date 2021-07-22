@@ -3,12 +3,12 @@ const { google } = require('googleapis');
 const url = 'https://www.youtube.com/watch?v=';
 const max_size = 10;
 
-function getSong() {
+function getSong(title) {
   return new Promise((resolve, reject) => {
     google.youtube('v3').search.list({  // Returns YouTube link.
       key: process.env.YOUTUBE_TOKEN,
       part: 'snippet',
-      q: 'capo glo gang \-interview \-type \-beat \-killed \-kollege \-kidd',  // Search for capo, no interviews, no type beats, no murder video (GIP).
+      q: `${title} 'capo glo gang \-interview \-type \-beat \-killed \-kollege \-kidd`,  // Search for capo, no interviews, no type beats, no murder video (GIP).
       maxResults: max_size,
       type: 'video',
       videoDuration: 'short',
@@ -22,6 +22,7 @@ function getSong() {
         }
       }
     }).catch((err) => {
+      console.log(err);
       return reject(err);
     });
   });

@@ -20,10 +20,12 @@
     "chai": "^4.3.4",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
     "genius-lyrics": "^4.2.9",
     "google-auth-library": "^7.1.2",
     "googleapis": "^78.0.0",
     "mocha": "^9.0.2",
+    "path": "^0.12.7",
     "simple-oauth2": "^4.2.0"
   }
 }
